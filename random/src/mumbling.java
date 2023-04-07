@@ -1,5 +1,9 @@
 public class mumbling {
 
+    //accum("abcd") -> "A-Bb-Ccc-Dddd"
+    //accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+    //accum("cwAt") -> "C-Ww-Aaa-Tttt"
+
     public String accum(String s) {
         int iteration = 0;
         s = s.toLowerCase();
@@ -19,8 +23,6 @@ public class mumbling {
 
                 iteration++;
             }
-
-
         }
         return sb.toString();
     }
