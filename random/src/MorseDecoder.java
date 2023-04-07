@@ -1,4 +1,4 @@
-public class morseDecoder {
+public class MorseDecoder {
 
     //In this question we could use a lot of other better strategies. Hashmap, Imports and all that stuff. Probably I did the worst code possible.
     public String decoder(String code) {

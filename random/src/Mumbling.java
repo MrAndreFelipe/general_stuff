@@ -1,4 +1,4 @@
-public class mumbling {
+public class Mumbling {
 
     //accum("abcd") -> "A-Bb-Ccc-Dddd"
     //accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
