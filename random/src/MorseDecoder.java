@@ -1,6 +1,7 @@
 public class MorseDecoder {
 
     //In this question we could use a lot of other better strategies. Hashmap, Imports and all that stuff. Probably I did the worst code possible.
+    //This code intends to translate morse code
     public String decoder(String code) {
 
         String[] letters = code.split(" ");
